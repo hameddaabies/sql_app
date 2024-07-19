@@ -1,7 +1,3 @@
-streamlit==1.10.0
-openai==0.10.2
-# Assuming langchain and related packages are available via PyPI or replace with the correct source or private repository if needed
-# Include specific versions if you have dependencies that are sensitive to version changes
-langchain==0.1.0  # This is a placeholder version; replace with the actual version you are using
-# Any database drivers or SQL tools required, e.g., psycopg2 for PostgreSQL, if using SQL features
-psycopg2-binary==2.9.3  # Only include if your SQLDatabase uses PostgreSQL, for example
+streamlit
+openai
+langchain
