@@ -1,4 +1,3 @@
-python-dotenv==0.20.0
 streamlit==1.10.0
 openai==0.10.2
 # Assuming langchain and related packages are available via PyPI or replace with the correct source or private repository if needed
