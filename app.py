@@ -132,11 +132,11 @@ with st.sidebar:
     st.subheader("Settings")
     st.write("This is a simple chat application using MySQL. Connect to the database and start chatting.")
     
-    st.text_input("Host", value="34.71.156.167", key="Host")
-    st.text_input("Port", value="3306", key="Port")
-    st.text_input("User", value="root", key="User")
+    st.text_input("Host", value="", key="Host")
+    st.text_input("Port", value="", key="Port")
+    st.text_input("User", value="", key="User")
     st.text_input("Password", type="password", value="", key="Password")
-    st.text_input("Database", value="dutch_markets", key="Database")
+    st.text_input("Database", value="", key="Database")
     
     if st.button("Connect"):
         with st.spinner("Connecting to database..."):
